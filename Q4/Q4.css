@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#notifBox {
+  width: 20%;
+  height: 100px;
+  background-color: darkorchid;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
