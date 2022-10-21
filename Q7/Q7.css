@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: robotoRegular;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: robotoBold;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: robotoMedium;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Roboto-Medium.ttf");
+}
+body {
+  height: 100vh;
+  background-image: url(images/back.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: robotoRegular;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f384fc;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: #ab58ce;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  row-gap: 15px;
+}
+
+.card p {
+  font-size: 12px;
+  text-align: left;
+}
+
+#profileImg {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.social img {
+  width: 10%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 5px;
+}
