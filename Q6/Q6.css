@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: robotoRegular;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: robotoBold;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: robotoMedium;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Roboto-Medium.ttf");
+}
+body {
+  height: 100vh;
+  background-image: url(images/back.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: robotoRegular;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.main {
+  padding: 5%;
+  width: 350px;
+  border-radius: 7px;
+  color: white;
+  background: linear-gradient(to right, #7977f6, #a03de8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+#profileImg img {
+  width: 50%;
+}
+#profileImg {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+}
+#formTitle {
+  font-size: 20px;
+}
+
+#formFields input {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+#formFields input:focus {
+  outline: none;
+}
+#formFields img {
+  width: 15px;
+}
+#formFields ::placeholder {
+  color: white;
+}
+
+#formFields div:nth-child(1),
+#formFields div:nth-child(2) {
+  border-bottom: 1px solid white;
+}
+label {
+  font-size: 12px;
+}
+
+#loginBtn {
+  padding: 8px 25px;
+  color: #a03de8;
+  border: 1px solid #a03de8;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#forgetPass a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
